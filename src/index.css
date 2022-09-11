@@ -89,6 +89,37 @@ header h1 {
 	margin-bottom: 2rem;
 }
 
+/*** RESETEANDO ESTILOS DE LIBRERIA SWEETALERT2 ***/
+.swal2-popup {
+	font-size: 1.5rem !important;
+}
+
+@media (max-width: 470px) {
+	.formulario label {
+		font-size: 2.8rem;
+		display: flex;
+		margin-bottom: 2rem;
+	}
+	.nuevo-presupuesto {
+		font-size: 2rem !important;
+		text-align: center;
+	}
+	.campo {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 2rem;
+	}
+	.modal .formulario {
+		width: 30rem !important;
+	}
+	.gasto {
+		flex-wrap: wrap;
+	}
+	.swal2-popup {
+		font-size: 1rem !important;
+	}
+}
+
 .formulario input[type='text'],
 .formulario input[type='number'] {
 	background-color: var(--gris-claro);
@@ -160,6 +191,7 @@ header h1 {
 
 	transform: translateY(5rem);
 }
+
 .dos-columnas {
 	flex-direction: column;
 }
@@ -401,9 +433,4 @@ body .modal {
 	align-items: center;
 	font-size: 2.4rem;
 	text-align: right;
-}
-
-/*** RESETEANDO ESTILOS DE LIBRERIA SWEETALERT2 ***/
-.swal2-popup {
-	font-size: 1.5rem !important;
 }
