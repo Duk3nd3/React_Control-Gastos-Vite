@@ -151,6 +151,20 @@ header h1 {
 	}
 }
 
+@media (max-width: 320px) {
+	.modal {
+		top: -25px !important;
+		bottom: -25px !important;
+	}
+
+	.modal .cerrar-modal {
+		right: 3.5rem;
+		top: 3.5rem;
+		width: 3.5rem;
+		height: 3.5rem;
+	}
+}
+
 .formulario input[type='text'],
 .formulario input[type='number'] {
 	background-color: var(--gris-claro);
