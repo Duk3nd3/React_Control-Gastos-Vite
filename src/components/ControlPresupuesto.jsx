@@ -46,9 +46,9 @@ const ControlPresupuesto = ({
 
 	//Formateamos el importe del presupuesto a Dolares
 	const formatearCantidad = (cantidad) => {
-		return cantidad.toLocaleString('en-US', {
+		return cantidad.toLocaleString('es-AR', {
 			style: 'currency',
-			currency: 'USD',
+			currency: 'ARG',
 		});
 	};
 
@@ -69,7 +69,7 @@ const ControlPresupuesto = ({
 			if (result.isConfirmed) {
 				//Una vez confirmada la accion (SI) vaciamos el gasto y presupuesto
 				setGastos([]);
-				setPresupuesto(0);
+				setPresupuesto([]);
 				setIsValidPresupuesto(false);
 				Swal.fire('Borrado!', 'Registro quitado con exito.', 'success');
 			}

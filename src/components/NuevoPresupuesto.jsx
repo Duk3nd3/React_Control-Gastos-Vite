@@ -20,7 +20,6 @@ const NuevoPresupuesto = ({
 		setMensaje('');
 		setIsValidPresupuesto(true);
 	};
-
 	return (
 		<div className='contenedor-presupuesto contenedor sombra'>
 			<form onSubmit={handlePresupuesto} className='formulario'>
