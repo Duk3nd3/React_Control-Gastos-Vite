@@ -48,7 +48,7 @@ const ControlPresupuesto = ({
 	const formatearCantidad = (cantidad) => {
 		return cantidad.toLocaleString('es-AR', {
 			style: 'currency',
-			currency: 'ARG',
+			currency: 'ARS',
 		});
 	};
 
